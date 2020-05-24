@@ -103,3 +103,6 @@ function win32SplitPath(filename) {
   /^([\s\S]*?)((?:\.{1,2}|[^\\\/]+?|)(\.[^.\/\\]*|))(?:[\\\/]*)$/;
 
 var win32 = {};
+
+
+var test =3;
