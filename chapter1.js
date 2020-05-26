@@ -26,3 +26,14 @@ function sum(a, b) {
 
 var test5 = sum('asd','345' );
 console.log(test5)
+
+function sumaNaSterydach() {
+    var i, res = 0;
+    var liczba_parametrow = arguments.length;
+    for (i = 0; i < liczba_parametrow; i++) {
+    res += arguments[i];
+    }
+    return res;
+}
+
+sumaNaSterydach(4,5)
