@@ -16,3 +16,13 @@ var  test3 = test2 + 13
 var  test4 = test2 / 13
 console.log(test3)
 console.log(test4)
+function sum(a, b) {
+    if (typeof(a) === "undefined" || typeof(b) === 'undefined') {
+        return "dupa"
+    } 
+    var c = a + b;
+    return c;
+}
+
+var test5 = sum('asd','345' );
+console.log(test5)
