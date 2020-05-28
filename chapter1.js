@@ -27,13 +27,33 @@ function sum(a, b) {
 var test5 = sum('asd','345' );
 console.log(test5)
 
-function sumaNaSterydach() {
+function sumaNaSterydach(a) {
     var i, res = 0;
     var liczba_parametrow = arguments.length;
     for (i = 0; i < liczba_parametrow; i++) {
     res += arguments[i];
     }
+
     return res;
 }
 
-sumaNaSterydach(4,5)
+var test7 =sumaNaSterydach(4,5)
+var test8 = parseInt("w2asd")
+var test9 = parseFloat("12e2")
+console.log(isNaN(test8));
+var url = 'http://www.packtpub.com/scr ipt.php?q=this and that';
+var codeurl= encodeURI(url);
+console.log(encodeURI(url));
+console.log(decodeURI(codeurl));
+var a = 123;
+function f() {
+    console.log(a);
+var a = 1;
+console.log(a);
+}
+f();
+console.log(typeof f)
+// var f =2 if uncomment this line the interpreter throw error
+console.log(typeof f)
+
+f();
