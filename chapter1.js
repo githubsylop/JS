@@ -52,3 +52,8 @@ var a = 1;
 console.log(a);
 }
 f();
+console.log(typeof f)
+// var f =2 if uncomment this line the interpreter throw error
+console.log(typeof f)
+
+f();
