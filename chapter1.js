@@ -45,4 +45,10 @@ var url = 'http://www.packtpub.com/scr ipt.php?q=this and that';
 var codeurl= encodeURI(url);
 console.log(encodeURI(url));
 console.log(decodeURI(codeurl));
-
+var a = 123;
+function f() {
+    console.log(a);
+var a = 1;
+console.log(a);
+}
+f();
