@@ -40,4 +40,9 @@ function sumaNaSterydach(a) {
 var test7 =sumaNaSterydach(4,5)
 var test8 = parseInt("w2asd")
 var test9 = parseFloat("12e2")
-console.log(isNaN(test8))
+console.log(isNaN(test8));
+var url = 'http://www.packtpub.com/scr ipt.php?q=this and that';
+var codeurl= encodeURI(url);
+console.log(encodeURI(url));
+console.log(decodeURI(codeurl));
+
