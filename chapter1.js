@@ -78,3 +78,13 @@ var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
 
 var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
 
+function a_1 () {
+    var b = function () {
+        return 'b'
+    };
+    return b
+}
+
+var test_function =a_1()
+var c=test_function()
+var d = a_1()()
