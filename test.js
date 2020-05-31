@@ -70,3 +70,17 @@ var tab_2 =tab_1.slice(0,10);
 var tab_3=tab_1;
 tab_2.sort();
 tab_3.sort();
+
+var obiekt= {
+    imie: 'Ninja',
+    mow: function(kto){
+    return 'Siema ' + kto + ', jestem ' + this.imie;
+    }
+}
+
+mój_obiekt = {imie: 'Programistyczny guru'};
+mój_obiekt2 = {imie1: 'Programistyczny guru'};
+var call_1 =obiekt.mow.call(mój_obiekt, 'stary');
+var call_2 =obiekt.mow.call(mój_obiekt2, 'stary');
+var boolean_1 = true;
+console.log(typeof boolean_1)
