@@ -57,3 +57,35 @@ console.log(typeof f)
 console.log(typeof f)
 
 f();
+
+function pomnozRazyDwa(a, b, c) {
+    var i, ar = [];
+    for(i = 0; i < 3; i++) {
+        ar[i] = arguments[i] * 2;
+        ar[i]=dodajJeden(ar[i]);
+    }
+    return ar;
+}
+function dodajJeden(a) {
+    return a + 1;
+}
+setImmediate(() => {
+
+var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
+
+
+});
+
+var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
+
+function a_1 () {
+    var z =2
+    var y = function () {
+        return z
+    };
+    return y
+}
+
+var test_function =a_1()
+var c=test_function()
+var x = a_1()()
