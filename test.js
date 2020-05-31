@@ -66,5 +66,7 @@ var a_to_string = a.toString();
 var value_if =test2.valueOf()
 console.log(a_to_string)
 var tab_1 =[3, 5, 1, 7, "test"];
-var tab_2 =tab_1;
+var tab_2 =tab_1.slice(0,10);
+var tab_3=tab_1;
 tab_2.sort();
+tab_3.sort();
