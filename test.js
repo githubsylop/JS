@@ -88,4 +88,4 @@ console.log(call_1)
 var s ="test";
 console.log( s.substring(0, 2))
 console.log(s.toUpperCase());
-console.log(s.split("",1));
+console.log(s.split("",10));
