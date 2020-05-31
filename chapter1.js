@@ -79,12 +79,13 @@ var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
 var myarr = pomnozRazyDwa(1, 2, 3, dodajJeden);
 
 function a_1 () {
-    var b = function () {
-        return 'b'
+    var z =2
+    var y = function () {
+        return z
     };
-    return b
+    return y
 }
 
 var test_function =a_1()
 var c=test_function()
-var d = a_1()()
+var x = a_1()()
