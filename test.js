@@ -85,3 +85,7 @@ var call_2 =obiekt.mow.call(mój_obiekt2, 'stary');
 var boolean_1 = true;
 console.log(typeof boolean_1);
 console.log(call_1)
+var s ="test";
+console.log( s.substring(0, 2))
+console.log(s.toUpperCase());
+console.log(s.split("",1));
