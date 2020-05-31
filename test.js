@@ -83,4 +83,5 @@ mój_obiekt2 = {imie1: 'Programistyczny guru'};
 var call_1 =obiekt.mow.call(mój_obiekt, 'stary');
 var call_2 =obiekt.mow.call(mój_obiekt2, 'stary');
 var boolean_1 = true;
-console.log(typeof boolean_1)
+console.log(typeof boolean_1);
+console.log(call_1)
