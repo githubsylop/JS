@@ -24,3 +24,10 @@ var callback = function(){
 var re = /(.*)@(.*)\.(.*)/;
 var glob;
 var mail_data ="stoyan@phpied.com".replace(re, callback);
+try {
+test()
+} catch (fault) {
+    var fault_data =fault;
+    console.log(fault)
+}
+
